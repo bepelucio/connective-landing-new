@@ -1,0 +1,79 @@
+.landing.beadvisor 
+{
+    /*background: url(http://hellojewel.net/theme_preview/reign/preview/assets/images/intro/05.jpg) 
+    no-repeat fixed #0e2439;*/
+    background: url(beadvisor_bg.jpg) fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.BeadvisorHeader
+{
+padding: 120px 0px 300px;
+background: rgba(15, 41, 61, 0.6);
+}
+.separator
+{
+width: 60%;
+border-bottom: 1px solid #eee;
+max-width: 1180px;
+}
+.section-advantages
+{
+	padding-top:50px;
+    padding-bottom:25px;
+}
+
+.service p{
+	font-weight:300;
+	color: #1D2730;
+	font-size:16px;
+	line-height: 1.6; 
+}
+
+.mg-top60{
+	padding-top:80px;
+	padding: 10px;
+    padding-bottom: 80px;
+}
+
+.card-block{
+display: block;
+width: 90px;
+height: 90px;
+margin: 0px auto 20px;
+font-size: 2.125rem;
+line-height: 2.5;
+text-align: center;
+border: 3px solid #3088BB;
+border-radius: 50%;
+background: #3088BB;
+color: #fff;
+font-size: 30px;
+}
+
+.card-block .fa-money{
+font-size: 44px;
+margin-top: 18px;
+}
+
+
+.card-block .fa-diamond{
+font-size: 36px;
+margin-top: 22px;
+}
+
+.card-block .fa-trophy{
+font-size: 43px;
+margin-top: 20px;
+}
+
+.advantages h3{
+color: #3088BB;
+font-weight: 400;
+}
+
+.advantages{
+padding-bottom:30px;
+}

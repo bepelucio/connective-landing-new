@@ -1,0 +1,8 @@
+<% if flash %>
+  	<% flash.each do |type, message| %>
+    	<% type = type.gsub('alert', 'warning').gsub('notice', 'success').gsub('error', 'danger') %>
+        <%= javascript_tag do %>
+        	$.notify('<%= message %>', '<%= type %>');
+        <% end %>
+  	<% end %>
+<% end %>

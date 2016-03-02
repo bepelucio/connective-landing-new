@@ -1,0 +1,184 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+
+  title: "Connective - Time is Money, Invest in it"
+
+  language:
+    lang_en: "English"
+    lang_pt: "Portuguese"
+    lang_es: "Spanish"
+    lang_de: "German"
+    lang_fr: "French"
+
+  navbar:
+    toggle: "Toggle Navigation"
+    service: "What we do"
+    how_it_works: "How it works"
+    be_advisor: "Become an advisor"
+    hire: "Hire"
+    about: "Who are we"
+    login: "Login"
+    register: "Register"
+
+  intro:
+    description: "| The Hospitality Advice Network"
+    coming_soon:
+      day: "Days"
+      hour: "Hours"
+      minute: "Minutes"
+      second: "Seconds"
+
+  service:
+    head: "What we do"
+    subhead: "Connective provide students the unique opportunity to establish contact with experienced Managers from the hospitality industry, making them more knowledgeable and confident on their future jobs."
+    access:
+      title: "Access"
+      description: "We provide full access to both Managers and Students from the industry, together with an advanced filter that will help you choose the right person to fulfill your needs."
+    contact:
+      title: "Contact"
+      description: "Throughout the platform students can reach out Managers from the industry to seek advice about different matters, namely career path decisions or/and enhance their academic projects."
+    opportunity:
+      title: "Job Opportunities"
+      description: |
+        Connective also allows experts to recruit and hire students through the platform. Easy, quick and free of charge.
+
+  HIW:
+    head: "How it works"
+    steps: "Step by Step"
+    about: "Reach out experts from the industry to receive advice about different matters, namely career path decisions or to enhance your academic projects, with 100% guarantee of contact and answer."
+    content:
+      globe: 
+        title: "Choose the right manager for the right job"
+        description: "Browse through our diversified network of Advisors and choose the expert that best fulfills your needs."
+      calendar:
+        title: "Check-in date"
+        description: "Select 4 possible dates/times to establish the contact with the advisor and your topic of interest for the conversation. You will receive a confirmation within 3 week days."
+      thumbs_up:
+        title: "Be awesome"
+        description: "On the confirmed date call the advisor and make sure you give the best impression of you, don't forget that he/she could potentially hire you."
+      credit:
+        title: "Check out"
+        description: "After the contact is made, we will deduct the credits from your account based on the time and price of the call."
+
+  partner:
+    testimonial:
+      first:
+        comment: "Connective is the bridge students need to reach out to top management in the hotel industry"
+        author: "Margarida Magalhães, student at Les Roches Bluche"
+      second:
+        comment: "It will help students create long lasting connections within the hotel industry"
+        author: "Maria Coma, Guest Services at The Rosewood London"
+      third:
+        comment: "Innovative platform, a new and good way to connect students and advisors"
+        author: "Martina Di Rocco, On Boarding Coordinator at Future Of Hospitality Summit(FHS)"
+
+  contact:
+    head: "Contact Us"
+    subhead: |
+      Whether you’re looking for answers, would like to solve a problem,
+      or just drop us a comment, don't hesitate to contact us.
+    form:
+      name: "Name*"
+      email: "Email*"
+      subject: "Subject*"
+      message: "Message*"
+      submit: "Send Message"
+    otherwise:
+      or: "OR"
+      question: "Apply as an Advisor"
+      subhead:  "If you think you have what takes to become an advisor, click in the button bellow:"
+      apply: "Apply"
+    modal:
+      head: "Apply as an Advisor"
+      body:
+        file: |
+          Use the button below to upload your CV:
+        url: "Or Insert your"
+        submit: "Send"
+    solicitation:
+      success: "Your application has successfully been created! We will notify you very soon."
+      alert: "Your linkedin url has already been added. We will contact you soon."
+      error: "Could not send the data. Please try again."
+    email:
+      sent: "Your message was sent successfully! We will review your mesagem, and get in touch with you as soon as we finish the analysis."
+
+
+  heading: 
+    about: "We're driven by a sense of purpose: connect the entire Hospitality Industry"
+
+  aboutus: 
+    header: "Who are we"  
+    description_one: | 
+      Connective provide students the unique opportunity to establish contact with experienced managers from the hospitality industry,
+      helping them with their career path decisions and academic projects.
+    description_two: |
+      Connective will also serve as a recruitment tool, where our mentors will have the opportunity to recruit students to their respective hotels.
+
+  beadvisor:
+    header: "Become an Advisor"
+    secheader: "Know more"
+    description: "Get monetary compensation while inspiring the next-generation of hospitality leaders"  
+
+    financial:
+      title: "Monetary Compensation"
+      description: "Get monetary compensation while inspiring the next-generation of hospitality leaders 
+        Any time, any where."
+
+    recruit: 
+      title: "Recruitment tool"
+      description: "Use our platform as recruitment tool to find the best available talent for your company"
+
+    exposure:
+      title: "World Wide Exposure"
+      description:  "Get world wide exposure and draw attention to your career and business"
+
+  
+  hire: 
+    header: "Recruit, Select and Hire"
+    description: "Use our platform to recruit the best available talent for your company"  
+
+    content:
+      one: "Use our advanced search to find the student that fulfill job's requirements"
+      two: "Browse through search results and click in the student profile that match your search criteria"
+      three: "If you like the student profile click in the 'Hire me' button and schedule a call to talk (totally free) with the student"   
+      four: "When the time comes call the student and figure out if he/she will be your next talented employee"
+
+  team:
+    header: "Meet our team"
+
+    gustavo: "Bachelor in Business Administrations and Small and Medium Enterprises Management"
+    gustavofunction: "CEO & Co-founder"
+
+    joao: "Bachelor in Business Administrations and Small and Medium Enterprises Management"
+    joaofunction: "COO & Co-founder"
+
+    giulia: |
+      Work as web designer since 2012, loves turning ideas into code, videos and text.
+      She's also: Italian brazilian, homecook and vlogger.
+    giuliafunction: "Web Designer"
+
+    pedro: |
+       Have a Degree on Computer Engineering and it's still studying. Is very friendly and like his work. 
+       Loves martial-arts, videogames and homemade food.
+    pedrofunction: "Web Developer"
+

@@ -1,0 +1,180 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+pt:
+
+  title: "Connective - Tempo é dinheiro, Investe-o"
+
+  language:
+    lang_en: "Inglês"
+    lang_pt: "Português"
+    lang_es: "Espanhol"
+    lang_de: "Alemão"
+    lang_fr: "Francês"
+
+  navbar:
+    toggle: "Alternar Navegação"
+    service: "O que fazemos"
+    how_it_works: "Como funciona"
+    be_advisor: "Torne-se um mentor"
+    hire: "Recrutamento"
+    about: "Quem somos"
+    login: "Login"
+    register: "Registo"
+
+  intro:
+    description: "| The Hospitality Advice Network"
+    coming_soon:
+      day: "Dias"
+      hour: "Horas"
+      minute: "Minutos"
+      second: "Segundos"
+
+  service:
+    head: "O que fazemos"
+    subhead: "A Connective proporciona aos alunos a oportunidade única de se conectarem com gestores experientes da indústria hoteleira, tornando-os mais capacitados e confiantes em relação aos seus futuros empregos."
+    access:
+      title: "Acesso"
+      description: "A Connective permite que os utilizadores acessem perfis detalhados de estudantes e mentores da indústria hoteleira."
+    contact:
+      title: "Contato"
+      description: "Através da nossa plataforma os estudantes podem contatar especialistas da indústria hoteleira para pedir aconselhamento sobre questões profissionais, seja para melhorar seus projetos académicos ou ajudar a decidir qual carreira seguir."
+    opportunity:
+      title: "Oportunidades de Emprego"
+      description: | 
+        A Connective também permite que especialistas usem a plataforma para recrutar e contratar estudantes. Fácil e rápido.
+
+  HIW:
+    head: "Como funciona"
+    steps: "Passo-a-Passo"  
+    about: "Contate especialistas do sector e receba conselhos sobre diferentes assuntos, seja sobre tua carreira ou sobre melhorias que podes fazer nos teus projetos académicos, com garantia de 100% de contato e resposta."
+    content:
+      globe: 
+        title: "Escolha o especialista que melhor preenche as suas necessidades"
+        description: "Utilize nossa plataforma para encontrar aquele que mais preenche as suas necessidades."
+      calendar:
+        title: "Agende uma data"
+        description: "Preencha o tópico da conversa no nosso formulário e selecione 4 possíveis datas/horários para contatar o especialista selecionado. Você receberá um email de confirmação no prazo de 3 dias úteis."
+      thumbs_up:
+        title: "Dê o seu melhor"
+        description: "Na data marcada ligue ao especialista e certifique-se de causar a melhor primeira impressão possível. Lembre-se que ele/ela podem vir a contratá-lo."
+      credit:
+        title: "Faça o check-out"
+        description: "Depois de feito o contato nós iremos deduzir os créditos da sua conta baseado no tempo e preço da ligação."
+
+  partner:
+    testimonial:
+      first:
+        comment: "Connective é a ponte que os estudantes precisam para chegar ao topo da indústria hoteleira."
+        author: "Margarida Magalhães, aluna de Les Roches Bluche"
+      second:
+        comment: "Irá ajudar os alunos a criar conexões duradouras dentro da indústria hoteleira."
+        author: "Maria Coma, Serviço de Hóspedes em The Rosewood London"
+      third:
+        comment: "Uma plataforma inovadora, uma forma nova e eficiente de conectar estudantes e mentores."
+        author: "Martina Di Rocco, Coordenadora de Embarque em Future Of Hospitality Summit(FHS)"
+
+  contact:
+    head: "Contate-nos"
+    subhead: |
+      Se você está à procura de respostas, gostaria de resolver um problema,
+      ou apenas deixar-nos um comentário, não hesite em contatar-nos.
+    form:
+      name: "Nome*"
+      email: "Email*"
+      subject: "Assunto*"
+      message: "Mensagem*"
+      submit: "Enviar mensagem"
+    otherwise:
+      or: "OU"
+      question: "Candidate-se como mentor"
+      subhead:  "Se você acha que tem o que é preciso para tornar-se um mentor, clique no botão abaixo:"
+      apply: "Candidate-se"
+    modal:
+      head: "Candidate-se como mentor"
+      body:
+        file: |
+          Use o botão abaixo para enviar o seu CV:
+        url: "Ou insira o seu"
+        submit: "Enviar"
+    solicitation:
+      success: "Seu pedido foi criado com sucesso! Vamos notificá-lo muito em breve."
+      alert: "Já foi adicionado a sua url LinkedIn. Entraremos em contato em breve."
+      error: "Não foi possivel enviar os dados. Por favor, tente novamente."
+    email:
+      sent: "Sua mensagem foi enviada com sucesso! Iremos analisa-la, e entrar em contato consigo assim que terminar a análise."
+
+  heading: 
+    about: "Somos movidos por um objetivo: Connectar toda a Indústria Hoteleira"
+
+  aboutus: 
+    header: "Quem somos"  
+    description_one: |
+      Connective irá proporcionar aos alunos a oportunidade única de estabelecer contato com gestores experientes da indústria da hospitalidade, 
+      ajudando-os a tomar decisões em relação à carreira e projetos acadêmicos.
+    description_two: | 
+      Connective também servirá como uma ferramenta de recrutamento, onde os nossos mentores terão a oportunidade de recrutar estudantes para os seus respectivos hotéis.
+
+  beadvisor:
+    header: "Torne-se um mentor"
+    secheader: "Saiba mais"
+    description: "Ganhe dinheiro enquanto inspira a próxima geração de líderes da indústria da hospitalidade"     
+
+    financial:
+      title: "Compensação Financeira"
+      description:  "Ganhe dinheiro enquanto inspira a próxima geração de líderes da indústria da hospitalidade. Em qualquer lugar, na hora que quiser"
+
+    recruit: 
+      title: "Recrutamento"
+      description: "Use nossa plataforma como ferramenta de recrutamento para encontrar grandes talentos para integrar sua organização"
+
+    exposure:
+      title: "Exposição a nível mundial"
+      description:  "Seja notado por grandes grupos hoteleiros e chame a atenção na hora certa para a sua carreira e negócio"
+  
+
+  hire: 
+    header: "Recrute, Selecione e Contrate"
+    description: "Use our platform to recruit the best available talent for your company"  
+    
+    content:
+      one: "Use a pesquisa avançada para encontrar o estudante que preenche os requisitos do emprego"
+      two: "Navegue através dos resultados da pesquisa e clique no perfil que considera mais adequado"
+      three: "Se gostar do perfil do estudante clique no botão 'Hire me' e agende uma ligação (totalmente gratuita)"
+      four: "Na data marcada ligue ao estudante e descubra se ele/ela será o próximo talento a ingressar na sua organização"     
+
+  team:
+    header: "A nossa equipa"
+
+    gustavo: "Licenciado em Business Administration"
+    gustavofunction: "Diretor Executivo & Co-fundador"
+
+    joao: "Licenciado em Business Administration"
+    joaofunction: "Diretor de Operações & Co-fundador"
+
+    giulia: |
+      Trabalha como web designer desde 2012 e adora transformar ideias em código, vídeos e texto.
+      Além disso é: Italo brasileira, cozinheira por instinto e vlogger.
+    giuliafunction: "Web Designer"
+
+    pedro: |
+       Licenciado em Engenharia Informática e aluno de mestrado. É muito simpático e gosta de seu trabalho. 
+       Adora artes marciais, videojogos e comida caseira.
+    pedrofunction: "Programador Web"

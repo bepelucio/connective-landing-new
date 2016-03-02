@@ -1,0 +1,173 @@
+//about page
+
+.landing.about {
+background: url(whoarewe_bg.jpg) fixed no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#introAbout {
+padding: 260px 0 160px 0;
+text-align: center;
+color: #FFF;
+min-height: 368px;
+}
+
+.AboutHeader{
+padding: 120px 0px 300px;
+background: rgba(15, 41, 61, 0.6);
+}
+
+.heading-about 
+{
+    position: relative;
+    font-size: 33px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-top: 0px;
+    color: #FFF;
+    text-align: center;
+    text-transform: none;
+}
+
+.heading-about h3{
+    font-family: "Lato", sans-serif;
+
+}
+
+.aboutus
+{
+    padding-bottom: 40px;
+    padding-top: 0px;
+    margin-top: -50px;
+}
+
+.aboutus p
+{
+    line-height: 1.6;
+    font-family: 300 15px/1.6 "Lato",sans-serif;
+}
+
+
+.about-title
+{
+    color: #3088BB;
+}
+
+
+.line-section 
+{
+    width: 55px;
+    height: 2px;
+    margin: 5px auto;
+    background: #3088BB;
+}
+
+.bounce 
+{
+position: relative;
+left: 49%;
+right: 50%;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+color: #E1E0E0;
+font-size: 35px;
+top: 90%;
+animation: 2s ease 0s normal none infinite running bounce;
+
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce 
+{
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce 
+{
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce 
+{
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
+}
+
+
+#team h2, .aboutus h2{
+color: #1D2730;
+text-align: center;
+font-size: 38px;
+padding-bottom: 20px;
+text-transform: uppercase;
+}
+
+
+#team img 
+{
+    border-radius: 50%;
+    box-shadow: 2px 4px 4px 4px #EEE;
+}
+
+#team
+{
+    padding-bottom: 100px;
+    padding-top: 60px;
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+}
+
+
+.teamline h3
+{
+    color: #148EBF;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 21px;
+    font-family: "Lato",sans-serif;
+}
+
+.teamline h4 
+{
+    color: #9F9D9D;
+    font-weight: 300;
+    margin-top: 2px;
+    font-style: italic;
+    font-family: "Lato",sans-serif;
+}
+
+.teamline{
+    padding-top: 50px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.teamline .fa-star
+{
+    color: #F6D51F;
+}

@@ -1,0 +1,91 @@
+/* This stylesheet must be made a new review */
+
+
+/* blockquote must have margin in right to complete space */
+.blockquote 
+{
+  padding: 90px 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  border-left: none !important;
+  background-size: cover;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.blockquote p:last-child, .blockquote ul:last-child, .blockquote ol:last-child 
+{
+  margin-bottom: 0; 
+  color:#fff;
+}
+
+.blockquote p{
+  color: #d8d8d8;
+  font-weight: 300;
+}
+
+  
+.blockquote footer 
+{
+  display: block;
+  font-size: 100%;
+  line-height: 2;
+  color: #bbb; 
+  font-size:14px;
+}
+
+.blockquote-reverse 
+{
+  padding-right: 1rem;
+  padding-left: 0;
+  text-align: right;
+  border-right: 0.25rem solid #eceeef;
+  border-left: 0; 
+}
+
+.blockquote-reverse footer:before 
+{
+  content: ""; 
+}
+
+.blockquote-reverse footer:after 
+{
+  content: "\00A0 \2014"; 
+}
+
+/* Carousel class is not used anywhere */
+
+.carousel 
+{
+  position: relative; 
+  margin-right:-20px;
+}
+
+.carousel-inner 
+{
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.carousel-inner > .carousel-item 
+{
+  position: relative;
+  display: none;
+  -webkit-transition: .6s ease-in-out left;
+  transition: .6s ease-in-out left; 
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img 
+{
+  line-height: 1; 
+}
+
+/*
+.static-iframe {
+  background:url(static-iframe.png) center center no-repeat;
+ }
+ */

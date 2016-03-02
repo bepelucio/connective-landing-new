@@ -1,0 +1,44 @@
+<!-- Navigation start -->
+
+	<nav class="navbar navbar-custom navbar-color" role="navigation">
+		<div class="container">
+
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only"><%= t "navbar.toggle" %></span>
+					<i class="fa fa-bars"></i>
+				</button>
+
+				<%= link_to root_path do %>
+   					<%= image_tag "connective_nav.png", class: "nav-logo" %>
+				<% end %>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<%= link_main(t("navbar.how_it_works"), how_it_works_path) %>
+					<%= link_main(t("navbar.be_advisor"), be_advisor_path) %>
+					<%= link_main(t("navbar.hire"), hire_path) %>
+					<%= link_main(t("navbar.about"), about_path) %>
+					<li class="dropdown language">
+				        <%= link_to '#', :class => "dropdown-toggle", :data => { toggle: "dropdown", "close-others" => true, hover: "dropdown" } do %>
+				            <%= image_tag("flags/flag_#{current_locale}.png", class: "flag") %>
+				            <%= t("language.lang_#{current_locale}").split(" ").first %>
+				            <%= content_tag(:b, nil, :class => "caret") %>
+				        <% end %>
+				        <ul class="dropdown-menu">
+				        	<% existing_locales.each do |lang| %>
+					          	<%= content_tag :li do %>
+					            	<%= link_to "#{image_tag("flags/flag_#{lang}.png", class: 'flag')} #{t("language.lang_#{lang}")}".html_safe, locale: lang %>
+					          	<% end %>
+					        <% end %>
+				        </ul>
+    				</li>
+    			</ul>
+		    </div>
+
+		</div>
+	</nav>
+

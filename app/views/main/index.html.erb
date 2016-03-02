@@ -1,0 +1,204 @@
+<div class="wrapper">
+
+	<!-- Intro section start -->
+	
+	<section id="intro" class="section">
+		
+				<div class='homepage'>
+					<div class='landing index session-room-background'>
+						<div class='with-request-form'>
+							<div class='headerBlock'>
+								<div class='hero-unit'>
+									<center>
+									<h1 class='headTitle'>The Hospitality Advice Network</h1>
+									<h3 style='font-size: 20px;color: rgba(255,255,255,0.8);'>
+									1 to 1 mentorship with Top managers from the Hospitality Industry
+									</h3>
+
+									<div id="clockdiv"><!--div clock-->
+										<div>
+											<span class="days"></span>
+											<div class="smalltext"><%= t "intro.coming_soon.day" %></div>
+										</div>
+										<div>
+											<span class="hours"></span>
+											<div class="smalltext"><%= t "intro.coming_soon.hour" %></div>
+										</div>
+
+										<div>
+											<span class="minutes"></span>
+											<div class="smalltext"><%= t "intro.coming_soon.minute" %></div>
+										</div>
+
+										<div>
+											<span class="seconds"></span>
+											<div class="smalltext"><%= t "intro.coming_soon.second" %></div>
+										</div>
+									</div><!-- end div clock-->
+
+									</center>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	</section>
+
+	<!-- Intro section end -->
+
+
+
+	<section id="services" class="section">
+
+		<!-- Services section start -->
+
+		<section class="services">
+			
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-12">
+
+						<div class="row">
+
+							<div class="col-sm-4">
+								
+								<div class="service">
+									<div class="card-block-key">
+										<div class="icon"></div>
+										<i class="fa fa-key"></i>
+									</div>
+									<div class="key">
+										<h3><%= t "service.access.title" %></h3>
+									</div>
+
+									<div class="text">
+										<p>
+											<%= t "service.access.description" %>
+										</p>
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="col-sm-4">
+
+								<div class="service">
+									<div class="card-block-mobile">
+										<div class="icon"></div>
+										<i class="fa fa-mobile"></i>
+									</div>
+									<div class="mobile">
+										<h3><%= t "service.contact.title" %></h3>
+									</div>
+									<div class="text">
+										<p>
+											<%= t "service.contact.description" %>
+										</p>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-sm-4">
+
+								<div class="service">
+									<div class="card-block-suitcase">
+										<div class="icon"></div>
+										<i class="fa fa-suitcase"></i>
+									</div>
+									<div class="suitcase">	
+										<h3><%= t "service.opportunity.title" %></h3>
+									</div>
+									<div class="text">
+										<p>
+											<%= simple_format t "service.opportunity.description" %>
+										</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</section>
+
+	<!-- Services section end -->
+
+	
+	<!-- Our Mentors/Testimonials starts-->
+
+	<div class="row" id="resume">
+		
+		<div class="col-md-12">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                  <div class="item active">
+                    <blockquote class="blockquote">
+                        <%= image_tag "margarida.jpg", height: "140", width: "140", alt: "Avatar", class: "img-circle" %>
+                        <p class="h3"><%= t "partner.testimonial.first.comment" %></p>
+                        <footer><%= t "partner.testimonial.first.author" %></footer>
+                    </blockquote>
+                </div>
+            
+
+                <div class="item">
+                    <blockquote class="blockquote">
+                        <%= image_tag "mariacoma.jpg", height: "140", width: "140", alt: "Avatar", class: "img-circle" %>
+                        <p class="h3"><%= t "partner.testimonial.second.comment" %></p>
+                        <footer><%= t "partner.testimonial.second.author" %></footer>
+                    </blockquote>
+                </div>
+
+                <div class="item">
+                    <blockquote class="blockquote">
+                        <%= image_tag "martinaDiRocco.jpg", height: "140", width: "140", alt: "Avatar", class: "img-circle" %>
+                    <p class="h3"><%= t "partner.testimonial.third.comment" %></p>
+                    <footer><%= t "partner.testimonial.third.author" %></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+
+			<div class="partners col-md-12">
+				<div class="text-center">
+					<div class="col-md-6">
+						<a href="http://startuplisboa.com/" target="_blank">
+							<%= image_tag "startupLisboa_logo.jpg" %>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="http://bit.ly/1hZXyWV" target="_blank">
+							<%= image_tag "pestana_logo.jpg" %>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+<!-- .wrapper -->

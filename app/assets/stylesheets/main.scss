@@ -1,0 +1,858 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Home page
+
+.home-bg-img{
+    margin-top: -210px;
+}
+
+.homepage{
+    margin-top: -280px;
+}
+    .landing {
+    margin-bottom: 0px;
+    top: 0;
+    left: 0;
+    background-color: #073648 !important
+}
+
+.landing #mac1 {
+    width: 500px
+}
+
+.landing .hero-unit {
+    background: none;
+    padding: 10px
+}
+
+.landing.msdn .headerBlock {
+    padding: 40px 0px 30px
+}
+
+.landing.msdn .hero-unit {
+    margin-bottom: 0px
+}
+
+.landing.msdn .headTitle {
+    font-size: 40px
+}
+
+.landing.msdn .msdn-logo {
+    margin-bottom: 5px
+}
+
+.landing.msdn .msdn-logo img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 40.875px
+}
+
+.landing.msdn .msdn-info {
+    color: #ddd;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0px 0px 10px 0px
+}
+
+.landing.msdn .msdn-info b {
+    color: #fff
+}
+
+.landing.msdn .msdn-disclaimer {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    line-height: 1.5
+}
+
+.landing.msdn .codemento-for {
+    color: #bbb;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 5px
+}
+
+.landing.msdn .msdn-code {
+    margin-top: 100px
+}
+
+.landing.msdn .msdn-code>input {
+    box-sizing: border-box;
+    height: 50px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    max-width: 302px;
+    width: 100%
+}
+
+.landing.msdn .msdn-code .signup {
+    max-width: 160px;
+    width: 100%;
+    margin: 0
+}
+
+.landing .headTitle {
+    color: #fff
+}
+
+.landing .headerBlock {
+    padding: 70px 0px 30px;
+    background: rgba(15, 41, 61, 0.7)
+}
+
+.landing .solution {
+    padding: 60px 0px 50px;
+    background: rgba(15, 41, 61, 0.7);
+    min-height: 100%
+}
+
+.landing .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff
+}
+
+.landing .column {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px
+}
+
+.landing .description {
+    color: #EFEFEF;
+    text-align: center
+}
+
+@media (max-width: 768px) {
+    .landing .description {
+        font-size: 14px;
+        line-height: 22px
+    }
+}
+
+.landing .image {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 60px
+}
+
+.landing .info {
+    margin-top: 24px;
+    margin-left: 0px
+}
+
+.landing h3 {
+    color: #fff;
+    text-transform:none;
+}
+
+@media (max-width: 768px) {
+    .landing h3 {
+        font-size: 20px;
+        line-height: 30px
+    }
+}
+
+.landing .with-request-form {
+    padding-top: 6em;
+    padding-top: 11vh;
+    padding-bottom: 8em;
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100vh - 150px);
+    min-height: 690px;
+    position: relative
+}
+
+@media (max-width: 768px) {
+    .landing .with-request-form {
+        padding-top: 6em;
+        padding-bottom: 0;
+        height: 100%;
+        min-height: auto
+    }
+
+    .landing .hero-unit {
+    background: none;
+    padding-bottom: 120px;
+    }
+}
+
+.landing .with-request-form:before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: rgba(15, 41, 61, 0.85);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0px;
+    left: 0px
+}
+
+.landing .with-request-form #mac1 {
+    width: 350px;
+    display: none
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form #mac1 {
+        display: block
+    }
+}
+
+.landing .with-request-form .offer-page-title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.2;
+    color: #fff
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form .offer-page-title {
+        font-size: 60px
+    }
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form .offer-page-title {
+        font-size: 30px;
+        line-height: 1.5
+    }
+}
+
+.landing .with-request-form .headTitle {
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 120px;
+    max-width: 700;
+    font-family: "Lato";
+    line-height: 1.2;
+    text-transform: none;
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form .headTitle {
+        font-size: 60px
+    }
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form .headTitle {
+        font-size: 30px;
+        line-height: 1.5
+    }
+}
+
+.landing .with-request-form .headerBlock {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    background: none
+}
+
+.landing .with-request-form .info {
+    margin-top: 36px
+}
+
+.landing .with-request-form .info h3 {
+    font-size: 24px
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form .request-form-wrapper {
+        display: none
+    }
+}
+
+.landing .with-request-form .signup-button {
+    display: none;
+    margin-bottom: 20px;
+    margin-top: -20px
+}
+
+@media (max-width: 979px) {
+    .landing .with-request-form .signup-button {
+        display: block
+    }
+}
+
+.landing .with-request-form .request-form {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    display: -webkit-flex;
+    box-sizing: border-box
+}
+
+.index-bg {
+    height: 700px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: url(ipad_connective.jpg) no-repeat #0e2439;
+    background-position: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -2
+}
+
+@media (max-width: 767px) {
+    .index-bg {
+        height: 100%
+    }
+}
+
+.landing.index {
+    background: url(ipad_connective.jpg) no-repeat fixed #0e2439;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.landing.index.session-room-background {
+    /*background: url(http://hellojewel.net/theme_preview/reign/preview/assets/images/intro/05.jpg) 
+    no-repeat fixed #0e2439;*/
+    background: url(ipad_call_connective.jpg) 
+    no-repeat fixed #0e2439;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.landing.index .actions .signup {
+    padding: 12px;
+    width: 220px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+.landing.index .actions .video {
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #ddd;
+    color: #eee;
+    padding: 13px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 220px;
+    display: inline-block;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    vertical-align: top;
+    font-size: 18px
+}
+
+.landing.index .actions .video i {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    margin-left: 10px;
+    vertical-align: top
+}
+
+.landing.index .actions .video:hover {
+    border-color: #fff;
+    color: #fff
+}
+
+.landing .promo-message,
+.landing .flash-message {
+    width: 410px;
+    margin-bottom: 20px;
+    margin-top: -18px
+}
+
+@media (max-width: 1199px) {
+    .landing .promo-message,
+    .landing .flash-message {
+        width: 330px
+    }
+    .landing.index .actions .signup,
+    .landing.index .actions .video {
+        width: 180px
+    }
+}
+
+@media (max-width: 979px) {
+    .landing .promo-message,
+    .landing .flash-message {
+        width: 290px
+    }
+    .landing.index .container .span6.info {
+        margin-top: -20px !important
+    }
+    .landing.index .actions .signup,
+    .landing.index .actions .video {
+        width: 160px;
+        font-size: 16px
+    }
+}
+
+@media (max-width: 767px) {
+    .landing .promo-message,
+    .landing .flash-message {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        max-width: 461px;
+        margin: -20px auto 20px
+    }
+    .landing.index {
+        background: #0e2439
+    }
+    .landing.index .container .span6.info>h3 {
+        margin-top: 10px
+    }
+    .landing.index .actions .signup,
+    .landing.index .actions .video {
+        width: 220px;
+        font-size: 18px
+    }
+}
+
+@media (max-width: 564px) {
+    .landing.index .actions .signup,
+    .landing.index .actions .video {
+        margin-right: 0px;
+        width: 220px;
+        font-size: 18px
+    }
+
+    .hero-unit{
+        margin-top: -20px;
+    }
+}
+
+#myCarousel{
+    background: url(bg-testimonials.jpg) no-repeat; 
+    background-size: cover;
+}
+
+
+//Service
+
+section .services 
+{
+    margin-top: -90px;    
+    padding: 10px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.card-block-key 
+{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0px auto 20px;
+    font-size: 2.125rem;
+    line-height: 2.5;
+    text-align: center;
+    border: 3px solid #1D2730;
+    border-radius: 50%;
+}
+
+.services .fa-key 
+{
+    font-size: 35px;
+    margin-top: 15px;
+    color: #1D2730;
+}
+
+.services .key h3 
+{
+    text-align: center;
+    font-size: 22px;
+    color: #1D2730;
+}
+
+.card-block-mobile 
+{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0px auto 20px;
+    font-size: 2.125rem;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #1D2730;
+}
+
+
+.services .fa-mobile 
+{
+    font-size: 44px;
+    margin-top: 15px;
+    color: #1D2730;
+}
+
+
+.services .mobile h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #1D2730;
+}
+
+.card-block-suitcase 
+{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0px auto 20px;
+    font-size: 2.125rem;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid #1D2730;
+}
+
+.service .fa-suitcase
+{
+	font-size: 32px;
+    margin: 0px 0px 5px;
+    margin-top: 19px;
+    color: #1D2730;
+}
+
+.services .suitcase h3 
+{
+    text-align: center;
+    font-size: 22px;
+    color: #1D2730;
+}
+
+.section.section-bgimage-yes > .section-inner > .section-overlay 
+{
+    content: "";
+    position: absolute;
+    background-color: #1D2730;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+}
+
+.services p {
+    font-weight: 300;
+}
+
+//page header content
+
+.section-heading{
+text-transform: uppercase;
+color: #1D2730;
+}
+
+
+//Navbar
+
+.navbar{
+    font-family: "Lato";
+}
+
+
+.navbar-color, .custom-collapse 
+{
+    padding: 0px;
+    background: #1D2730 none repeat scroll 0% 0%;
+    box-shadow: 2px 2px 2px RGBA(20, 20, 20, 0.56);
+    z-index: 1000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-color .navbar-nav>li.active {
+    background: #3088BB;
+    border: none;
+}
+
+.navbar .fa-plus-circle{
+    font-size:15px;
+}
+
+.navbar-on-top{
+    top: 0px;
+    border-width: 0px 0px 1px;
+    border-radius:0px;
+    margin-bottom:-10px;
+    padding-bottom:10px;
+}
+
+.nav .navbar-nav .navbar-right a.active{
+    background: #3088BB;
+    border: none;
+}
+
+.navbar-header .fa-bars{color:#fff; font-size:20px;}
+
+
+//Contact us
+
+#contact-us > .section-inner .section-content .form-group input, #contact-us > .section-inner .section-content .form-group textarea 
+{
+    color: #222;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    border-radius: 2px;
+    height: 43px;
+    font-size: 14px;
+}
+
+#contact-us > .section-inner .section-content .form-group textarea 
+{
+    height: 135px;
+}
+
+#contact-us > .section-inner .section-content .form-group button 
+{
+    width: 100%;
+    margin-top: 32px;
+    border-radius: 2px;
+    height: 46px;
+}
+
+.btn, .label, .avatar, .progress, .form-control, .modal-content, .panel-group .panel, .widget-social li a 
+{
+    border-radius: 2px;
+    height: 40px;
+}
+
+.control-label p
+{
+	margin-left:50px;
+}
+
+#contact-us>.section-inner .section-content .form-group textarea 
+{
+    height: 136px;
+    margin-top: -1px;
+}
+
+#contact-us>.section-inner .section-content .form-group .btn 
+{
+    width: 100%;
+    margin-top: 31px;
+    border-radius: 2px;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.btn-contact 
+{
+    background-color: #3996CC;
+    color: #FFF;
+    border-radius: 6px;
+    padding: 10px 16px;
+    line-height: 1.33;
+    font-weight: 400;
+    margin-top: 6px;
+    border: 2px solid #FFF;
+    width: 100%;
+    font-size: 20px;
+}
+
+label.control-label 
+{
+    font-weight: 300;
+    font-size: 17px;
+    text-align: left;
+    color: #656363;
+}
+
+#contact-us {
+    background-attachment: scroll;
+    padding-bottom: 90px;
+    background-color: #1D2730;
+}
+
+//Modal apply as advisor
+
+.modal-header 
+{
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #007bb6;
+}
+
+
+.linkedinurl
+{
+	background-color:#007bb6;
+}
+
+.linkedinurl img
+{
+	min-width:323px;margin-left: 0px;margin-botton: 10px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control 
+{
+    background-color: #fff;
+    opacity: 1;
+}
+
+.control-label p 
+{
+    font-size: 17px;
+    font-weight: 300;
+    color: #656363;
+}
+
+   .btn-submit {
+    color: #FFF;
+    border-radius: 3px;
+    padding: 10px 16px;
+    line-height: 1.33;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 182, 48, 0.65)), to(#ff2939));
+    background: linear-gradient(rgba(0, 182, 48, 0.65), #4ebd64);
+    border: none;
+}
+
+
+.btn-submit:hover {
+    color: #FFF;
+    border-radius: 3px;
+    padding: 10px 16px;
+    line-height: 1.33;
+    font-weight: 400;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 182, 48, 0.65)), to(#64d87b));
+    background: linear-gradient(rgba(0, 182, 48, 0.65), #40b657);
+    border: none;
+}
+
+.modal-title
+{
+    text-transform:uppercase;
+}
+
+.col-md-10 .label.control-label {
+    font-weight: 300;
+    font-size: 17px;
+    text-align: left;
+    color: #656363;
+    margin-top: 20px;
+}
+
+.modal-content 
+{
+    background: #fff;
+    height: 380px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.or-circle
+{
+    background-color: #3996CC;
+    border-color: #4DA1D1;
+    color: #FFF;
+    border-radius: 50%;
+    padding: 0px 8px;
+    font-size: 14px;
+    line-height: 0.33;
+    font-weight: 400;
+    margin-top: 22px;
+    height: 35px;
+    width: 35px;
+}
+
+
+//numbers countdown
+
+.smalltext 
+{
+    padding-top: 0px;
+    font-size: 32px;
+    color: #ccc;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3996CC;
+    font-family: "Lato";
+    margin-left: 30px;
+}
+
+#clockdiv div>span 
+{
+    padding-right: 7px;
+    border-radius: 3px;
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 5px;
+    color: #FFFFFF;
+    font-family: "Lato";
+    font-size: 85px;
+    font-weight: 300;
+    border-radius: 1px;
+}
+
+//margin
+
+.mt-30{
+    margin: 30px auto;
+}
+
+
+// New Footer
+
+    .footer-widgets{
+        background:#000;
+        color:#ddd;
+        padding: 60px;
+    }
+
+    .footer-widgets p{
+        font-weight: 300;
+    }
+
+    .footer-widgets h4{
+    text-transform: uppercase;
+    border-bottom: 1px solid #4B4B4B;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+
+.btn.btn-rj {
+    border-radius: 3px;
+    padding: 7px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 400;
+    margin-top: 25px;
+    width: 100%;
+    border-color: #088ef0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#34a5f8), to(#088ef0));
+    background: linear-gradient(#34a5f8, #088ef0);
+}
